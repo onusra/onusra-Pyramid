@@ -1,4 +1,4 @@
-
+import java.lang.*;
 public class Pyramid {
     /**
      * TODO: Return a string that is a pyramid of size n, made of of asterisks and no spaces.
@@ -27,7 +27,18 @@ public class Pyramid {
      * @param n the size of the pyramid.
      * @return a string representation of the pyramid.
      */
+    public static void main(String [] args){
+
+    }
     public String returnPyramid(int n){
-        return "";
+        String name = new String();
+        String x ="*";
+        for(int i = 0; i < n; i++){
+            for(int j = 0;j <= i ; j++){
+                name += x;
+            }
+            name += "\n";
+        } 
+        return name;
     }
 }
