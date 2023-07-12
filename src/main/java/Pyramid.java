@@ -27,6 +27,7 @@ public class Pyramid {
      * @param n the size of the pyramid.
      * @return a string representation of the pyramid.
      */
+    
     public static void main(String [] args){
 
     }
